@@ -8,23 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		2422F9BE1EA1FE3300A5E36C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2422F9BD1EA1FE3300A5E36C /* main.swift */; };
+		2422F9C51EA1FF3C00A5E36C /* input.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2422F9C41EA1FF2100A5E36C /* input.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		2422F9B81EA1FE3200A5E36C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 7;
 			files = (
+				2422F9C51EA1FF3C00A5E36C /* input.txt in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2422F9BA1EA1FE3300A5E36C /* CodersOfCaribbean */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodersOfCaribbean; sourceTree = BUILT_PRODUCTS_DIR; };
 		2422F9BD1EA1FE3300A5E36C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2422F9C41EA1FF2100A5E36C /* input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		2422F9C61EA2079900A5E36C /* Referee.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; name = Referee.java; path = "coders-of-the-caribbean/Referee.java"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,19 @@
 		2422F9BC1EA1FE3300A5E36C /* CodersOfCaribbean */ = {
 			isa = PBXGroup;
 			children = (
+				2422F9C81EA207A500A5E36C /* Referee */,
 				2422F9BD1EA1FE3300A5E36C /* main.swift */,
+				2422F9C41EA1FF2100A5E36C /* input.txt */,
 			);
 			path = CodersOfCaribbean;
+			sourceTree = "<group>";
+		};
+		2422F9C81EA207A500A5E36C /* Referee */ = {
+			isa = PBXGroup;
+			children = (
+				2422F9C61EA2079900A5E36C /* Referee.java */,
+			);
+			name = Referee;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
